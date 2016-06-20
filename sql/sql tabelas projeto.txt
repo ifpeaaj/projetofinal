@@ -1,0 +1,60 @@
+CREATE TABLE alunos
+(
+ID int,
+nome varchar(255),
+cpf varchar(255),
+matricula varchar(255),
+datadenascimento varchar(255),
+PRIMARY KEY (ID)
+);
+
+
+CREATE TABLE numerodefaltas
+(
+ID int,
+aluno varchar(255),
+disciplina varchar(255),
+faltas varchar(255),
+PRIMARY KEY (ID)
+);
+
+
+CREATE TABLE projetos
+(
+
+ID int,
+professor varchar(255),
+titulo_do_projeto varchar(255),
+descricao varchar(255),
+PRIMARY KEY (ID)
+);
+
+
+
+CREATE TABLE professor
+(
+ID int,
+nome varchar(255),
+data_de_nascimento varchar(255),
+cpf varchar(255),
+matricula varchar(255),
+sexo varchar(255),
+PRIMARY KEY (ID)
+);
+
+
+CREATE TABLE matricula
+(
+ID int,
+nome varchar(255),
+curso varchar(255),
+turno varchar(255),
+semestre varchar(255),
+disciplina varchar(255),
+PRIMARY KEY (ID)
+);
+
+
+
+
+
