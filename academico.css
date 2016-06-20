@@ -25,7 +25,7 @@ h1.fonte{font-family: 'Roboto', sans-serif;
 
 .botao {
     font-size: 1.5em;
-    background: #FF0000;
+    background: #FF0555;
     border: 0;
     margin-bottom: 1em;
     color: #FFFFFF;
@@ -121,4 +121,9 @@ h1.fonte{font-family: 'Roboto', sans-serif;
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.cordefundo{
+	 background: #00ffff;
+	
 }
